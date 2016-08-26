@@ -37,11 +37,11 @@ class Trig
 	end
 
 
-	def tan(angle)
+	def tan(angle) #WIP
 		x = degrad(angle, 'r')
-		puts degrad(Math::tan(x),'d')
+		puts degrad(Math::tan(x),'d') #debug stuf
 
-		return atan(sin(angle) / cos(angle)) #tangent inverse
+		return atan(sin(angle) / cos(angle))
 	end
 
 
